@@ -26,6 +26,6 @@ npm run build
 
 > You can preview the built app with `npm run preview`. This should _not_ be used to serve your app in production.
 
-## Deploying to Render
+## Deployment
 
-Follow the deploy instructions at https://render.com/docs/deploy-sveltekit-static
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/render-examples/sveltekit-static)
