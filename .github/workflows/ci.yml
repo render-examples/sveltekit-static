@@ -1,0 +1,14 @@
+name: CI
+on:
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0 24 * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies and build the app
+        run: npm install && npm run build
