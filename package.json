@@ -2,17 +2,18 @@
   "name": "sveltekit-static",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "preview": "svelte-kit preview"
+    "dev": "vite dev --port 3003",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@fontsource/fira-mono": "^4.2.2"
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "^1.0.0-next.32",
-    "@sveltejs/kit": "^1.0.0-next.345",
-    "svelte": "^3.48.0"
+    "@sveltejs/adapter-static": "^1.0.0-next.34",
+    "@sveltejs/kit": "^1.0.0-next.359",
+    "svelte": "^3.48.0",
+    "vite": "^2.9.13"
   },
   "type": "module",
   "engines": {
