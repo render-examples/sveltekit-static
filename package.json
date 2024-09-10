@@ -7,10 +7,10 @@
   },
   "devDependencies": {
     "@fontsource/fira-mono": "^4.5.10",
-    "@sveltejs/adapter-static": "^3.0.1",
-    "@sveltejs/kit": "^2.5.0",
-    "svelte": "^4.2.9",
-    "vite": "^5.0.12"
+    "@sveltejs/adapter-static": "^3.0.4",
+    "@sveltejs/kit": "^2.5.26",
+    "svelte": "^4.2.19",
+    "vite": "^5.4.3"
   },
   "type": "module"
 }
